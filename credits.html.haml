@@ -1,0 +1,33 @@
+!!!
+%html
+  %head
+    %style
+      = File.open(File.expand_path(File.dirname(__FILE__) + '/credits_style.css')).read
+
+  %body
+    %header
+      .title TXTBox
+      .tagline Your stupid simple notes app
+
+    .body
+      .credits
+        %ul
+          %li
+            %b DEVELOPED BY
+            Skylar Schipper
+          %li
+            %b ICON BY
+            Will Dos Santos
+
+    .contribute
+      %p Want to contribute?
+      %p
+        %a{href: 'http-extern://github.com/openskydev/TXTBoxApp'} Check out TXTBox on GitHub
+
+
+    %footer
+      %a{href: 'http-extern://www.txtbox.co'} TXTBox
+      .copywrite
+        &copy;{{copywrite_year}}
+        %a{href: 'http-extern://openskydev.com'} OpenSky, LLC
+      .version {{version_string}}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: 'Montserrat-Regular';
+        color: {{slate_color}};
+      }
+      blockquote {
+        padding: 0 0 0 6px;
+        border: 0px solid {{slate_color}};
+        border-left-width: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    {{markdown_preview}}
+  </body>
+  <script type="text/javascript">
+    function rewrite_urls(element, attr) {
+      var elements = document.getElementsByTagName("a");
+      for (var idx = 0; idx < elements.length; idx++) {
+        elements[idx][attr] = elements[idx][attr].replace('http://', 'http-extern://')
+        elements[idx][attr] = elements[idx][attr].replace('https://', 'https-extern://')
+      }
+    }
+    window.onload = function() {
+      rewrite_urls('a','href');
+    }
+  </script>
+</html>

@@ -1,0 +1,10 @@
+### Archive
+
+Notes can be archived by swiping from right to left.  Just release once the background turns red.
+
+Notes can be un-archived in the __Archive__ list.  (Found in the sidebar)
+
+To perminantly delete a note select it in the __Archive__.
+
+{{Welcome}}
+{{Tutorial}}

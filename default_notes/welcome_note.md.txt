@@ -1,0 +1,32 @@
+### Welcome
+
+This is ==TXTBox==.  Your stupid simple notes app.
+
+It supports some [Markdown](http://daringfireball.net/projects/markdown/) for style as you type.
+
+All your notes are listed under __All Notes__.  You can also browse by __Tags__ that can be found in the sidebar.
+
+##### Tags
+
+Tags are created __inline__ with your note text.  Just add two curly braces around the word, or words.  For example, this note is taged {{Welcome}}
+
+Tag names are case insensitive.  So {{welcome}} is the same as {{Welcome}}.
+
+##### Markdown
+
+The inline highlighting is supported for a few markdown tags.
+
+- `>`
+
+> Block quotes for example.
+
+- `###`  Headers are bolded
+- `inline code style`
+- [Links](http://www.txtbox.co)
+- `__bold__` Bold
+- `**bold**` Bold
+- `~~strike~~` Strike through
+
+**********
+
+Thanks very much for trying out TXTBox.  I hope you enjoy it.

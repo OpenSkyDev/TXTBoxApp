@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  font-family: 'Montserrat-Regular';
+  color: {{slate_color}};
+}
+div.title {
+  font-size: 18px;
+}
+div.contribute {
+  margin: 20px 0 0 0;
+  padding: 20px 0 0 0;
+  border: 0px solid {{slate_color}};
+  border-top-width: 1px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: {{ocean_color}};
+}
+
+header {
+  margin: 0 0 20px 0;
+}
+header div.title {
+  font-size: 22px;
+}
+footer {
+  font-size: 14px;
+  margin: 20px 0 0 0;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        text-align: center;
+        font-family: 'Montserrat-Regular';
+        color: {{slate_color}};
+      }
+      div.title {
+        font-size: 18px;
+      }
+      div.contribute {
+        margin: 20px 0 0 0;
+        padding: 20px 0 0 0;
+        border: 0px solid {{slate_color}};
+        border-top-width: 1px;
+      }
+      
+      ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+      }
+      
+      a {
+        text-decoration: none;
+        color: {{ocean_color}};
+      }
+      
+      header {
+        margin: 0 0 20px 0;
+      }
+      header div.title {
+        font-size: 22px;
+      }
+      footer {
+        font-size: 14px;
+        margin: 20px 0 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class='title'>TXTBox</div>
+      <div class='tagline'>Your stupid simple notes app</div>
+    </header>
+    <div class='body'>
+      <div class='credits'>
+        <ul>
+          <li>
+            <b>DEVELOPED BY</b>
+            Skylar Schipper
+          </li>
+          <li>
+            <b>ICON BY</b>
+            Will Dos Santos
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class='contribute'>
+      <p>Want to contribute?</p>
+      <p>
+        <a href='http-extern://github.com/openskydev/TXTBoxApp'>Check out TXTBox on GitHub</a>
+      </p>
+    </div>
+    <footer>
+      <a href='http-extern://www.txtbox.co'>TXTBox</a>
+      <div class='copywrite'>
+        &copy;{{copywrite_year}}
+        <a href='http-extern://openskydev.com'>OpenSky, LLC</a>
+      </div>
+      <div class='version'>{{version_string}}</div>
+    </footer>
+  </body>
+</html>
