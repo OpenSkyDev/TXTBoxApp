@@ -1,0 +1,29 @@
+!!!
+%html
+  %head
+    %title TXTBox for iOS
+    %meta{charset: "UTF-8"}
+    %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}
+    %meta{name: 'description', content: 'Your stupid simple note taking app for iOS'}
+    %meta{name: 'keywords', content: 'notes, iOS, app, notetaking, markdown'}
+    %link{href: '//fonts.googleapis.com/css?family=Montserrat:400,700', rel: 'stylesheet', type: 'text/css'}
+    %link{href: 'foundation/css/foundation.min.css', rel: 'stylesheet', type: 'text/css'}
+    %link{href: "css/main.css", rel: 'stylesheet', type: 'text/css'}
+
+  %body
+    %header
+      %img.icon{src: 'images/iTunesArtwork.png'}
+      .tagline
+        Your
+        %span Stupid
+        Simple Notes App
+    .content= "{{ content }}"
+
+    %footer
+      .copy
+        &copy; 2014
+        %a{href: 'http://openskydev.com'} OpenSky, LLC
+
+  %script{src: 'js/jquery.2.1.0.min.js'}
+  %script{src: 'foundation/js/foundation.min.js'}
+  %script{src: 'js/main.js'}

@@ -1,0 +1,137 @@
+$slate_color: rgb(85.0, 98.0, 112.0);
+$ocean_color: rgb(78.0, 205.0, 196.0);
+$apple_color: rgb(199.0, 244.0, 100.0);
+$cherry_color: rgb(255.0, 107.0, 107.0);
+$dark_red_color: rgb(196.0, 77.0, 88.0);
+
+body {
+  font-family: 'Montserrat', Helvetica, 'sans-serif';
+  color: $slate_color;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
+
+a {
+  color: $ocean_color;
+  &:hover {
+    color: $cherry_color;
+  }
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: inherit;
+  color: inherit;
+}
+
+header {
+  background-color: $ocean_color;
+  padding: 80px 0 80px 0;
+  text-align: center;
+  .tagline {
+    font-size: 40px;
+  }
+}
+span {
+  color: $cherry_color;
+}
+
+.icon {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.push-down {
+  padding: 50px 0 50px 0;
+}
+.info {
+  text-align: center;
+}
+
+.content {
+  margin: 30px 0 30px 0;
+}
+.section {
+  width: 100%;
+  background-color: $ocean_color;
+  h4 {
+    .span {
+      color: $cherry_color;
+    }
+  }
+  .content {
+    color: #ffffff;
+    ul {
+      margin: 0;
+      li {
+        margin: 0;
+        list-style: none;
+      }
+    }
+  }
+}
+.slate {
+  color: $slate_color;
+}
+.cherry {
+  color: $cherry_color;
+}
+.ocean {
+  color: $ocean_color;
+}
+.apple {
+  color: $apple_color;
+}
+.dark-red {
+  color: $dark_red_color;
+}
+
+span.highlight {
+  color: $slate_color;
+  padding: 0 3px 0 3px;
+  background-color: #FDFFB8;
+}
+
+.iphone-preview {
+  background-image: url('/images/iphone-notes-list.png');
+  background-size: 100%;
+  height: 400px;
+  max-width: 320px;
+  margin: 0 auto 0 auto;
+}
+.iphone-wrapper {
+  img {
+    display: block;
+    margin: 0 auto 0 auto;
+    max-height: 500px;
+  }
+}
+
+.download-button {
+  background-color: $dark_red_color;
+  color: #FFFFFF;
+  margin: 30px;
+  padding: 8px 20px 8px 20px;
+  border-radius: 12px;
+  text-align: center;
+  &:hover {
+    background-color: $cherry_color;
+  }
+  .text {
+    font-size: 22px;
+    margin: 4px 0 4px 0;
+    padding: 0;
+  }
+  .link {
+    font-size: 12px;
+  }
+  .apple-logo {
+    background-image: url('/images/apple-logo.svg');
+    background-size: 100%;
+    width: 40px;
+    height: 47px;
+    margin-right: 10px;
+  }
+}
